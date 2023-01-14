@@ -1,0 +1,89 @@
+body{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #181f27;
+}
+
+.tela-login{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #181920;
+    width: 410px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.input-box{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.span-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: #cbd0fe;
+}
+
+a{
+    text-decoration: none;
+    color: #5568fe;
+}
+
+.input-field{
+    width: 75%;
+    height: 45px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #252a34;
+    color: #cbd0fe;
+}
+
+.input-field::placeholder{
+    color: #cbd0fe;
+}
+
+.submit{
+    width: 60%;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #1964b7;
+    color: #cbd0fe;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        overflow: hidden;
+    }
+
+    .submit{
+        width: 50%;
+    }
+
+    .box{
+        width: 270px;
+    }
+
+    .input-field{
+        width: 80%;
+    }
+}
